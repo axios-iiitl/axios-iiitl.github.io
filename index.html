@@ -1,94 +1,212 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Axios-IIITL</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/wing.css" />
-    <link rel="stylesheet" href="./css/webwing.css" />
-  </head>
-  <body>
-    <div class="wing-buttons">
-      <span class="back-btn">Back</span>
-      <span class="webd-btn">Web Development</span>
-      <span class="appd-btn">App Development</span>
-      <span class="ml-btn">Machine Learning</span>
-      <span class="cybersec-btn">Cyber Security</span>
-      <span class="cc-btn">Comptative Coding</span>
-      <span class="design-btn">Design Wing</span>
-    </div>
-    <div class="wrapperouter"></div>
-    <div class="down-cover"></div>
-    <div class="right-cover"></div>
-    <div class="yellow"></div>
-    <div class="ml">
-      <div class="back"></div>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Axios</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-      <div class="webcontainer">
-        <div class="header-text">
-          <h2 id="wing-name">Web Development</h2>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-          <p id="wing-quote">
-            Successful website does three things - it attracts the right kinds
-            of visitors, guides them to the main services or product you offer
-            and collect contact details for future ongoing relation.
-          </p>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><img src="images/logo.png"> <span> Axios</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
 
-          <button class="btn">See More </button>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper">
-      <div class="hero">
-        <div class="container" data-tilt>
-          <svg viewBox="0 0 1920 1080">
-            <polygon
-              class="polymorph"
-              points="0 0 960 0 1920 0 1920 1080 1001 1080 0 1080 0 0"
-            />
-          </svg>
-          <div class="partone">
-            <div class="logo"><img src="./images/logo.png" /></div>
-            <div class="seperator">
-              <div class="name">
-                <h1>Axios</h1>
-              </div>
-              <div class="fullname">
-                <div class="a">
-                  <div class="a1"></div>
-                  <div class="a2">THE</div>
-                  <div class="a3"></div>
-                </div>
-                <div class="b">Technical Club of IIIT-L</div>
-                <div class="c"></div>
-              </div>
-              <div class="details">
-                We aim towards solving real world issues through various
-                technologies.
-              </div>
-              <div class="cta">
-                <button id="explore">EXPLORE</button>
-                <button id="exploreback">ABOUT US</button>
-              </div>
-            </div>
-          </div>
-          <div class="partmid"></div>
-          <div class="parttwo">
-            <div class="animationcover">
-              <img src="./images/animation.svg" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.3/tilt.jquery.min.js"></script>
-    <script src="./js/anime.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/timelinejs/3.6.6/js/timeline-min.js"></script>
-    <script src="./js/morph.js"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/buttonaction.js"></script>
-  </body>
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#wings">Wings</a></li>
+							<li><a href="#about-us">About Us</a></li>
+							<li><a href="#contact">Contact Us</a></li>
+						</ul>
+						<!-- <ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul> -->
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div id="particles-js"></div>
+						<div class="inner">
+							<header class="major">
+								<h1>Axios, The Technical Club of IIIT-L</h1>
+							</header>
+							<div class="content">
+								<p>We aim towards solving real world issues<br />
+								through various technologies.</p>
+								<ul class="actions">
+									<li><a href="#about-us" class="button next scrolly">About Us</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="wings" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/cc.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="/wings/competitiveCoding/" class="link" target="_blank">Competitive Coding</a></h3>
+										<p>Because Coding Is A Sport</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/cyber.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="/wings/cyberSecurity/" target="_blank" class="link">Cyber Security</a></h3>
+										<p>Your weakness is our strength</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/design.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="/wings/design/" target="_blank" class="link">Design</a></h3>
+										<p>Intelligence Made Visible</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/machine-learning.jpeg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="/wings/machineLearning/" target="_blank" class="link">Machine Learning</a></h3>
+										<p>Neither Good Nor Evil</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/softd.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="/wings/softwareDevelopment" target="_blank" class="link">Software & App Development</a></h3>
+										<p>Design First, Then Code</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/webd.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="/wings/webDevelopment/" target="_blank" class="link">Web Development</a></h3>
+										<p>Beyond The Browser</p>
+									</header>
+								</article>
+							</section>
+
+						<!-- Two -->
+							<section id="about-us">
+								<div class="inner">
+									<header class="major">
+										<h2>About Us</h2>
+									</header>
+									<p>We are the technical club of IIIT Lucknow who aimed towards solving real world problems. We are distributed into six wings namely Competitive Coding, Cyber Security, Design, Machine Learning, Software Development & Web Development.</p>
+									<ul class="actions">
+										<li><a href="about-us.html" class="button next">Read More</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form action="#" method="GET">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="mailto:technicalclub@iiitl.ac.in">technicalclub@iiitl.ac.in</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(+91) 9005670222</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-home"></span>
+										<h3>Address</h3>
+										<span>IIIT Lucknow<br />
+										Mastemau, Lucknow<br />
+										Uttar Pradesh 226002</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/axios-iiitl/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+								<li><a href="http://linkedin.com/company/axios-iiit-lucknow" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Axios</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="https://cldup.com/S6Ptkwu_qA.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
