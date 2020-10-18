@@ -27,9 +27,7 @@ a {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  /* background-color: rgb(210, 153, 30); */
   top: 0;
-  /* background-image: linear-gradient(-20deg, #fc6076 0%, #f58c30 100%); */
   background-image: linear-gradient(-20deg, #ff7b00 0%, #f58c30 100%);
   left: -100%;
   z-index: 1;
