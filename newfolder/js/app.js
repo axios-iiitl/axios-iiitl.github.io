@@ -7,29 +7,27 @@ const wingButtons = document.querySelector('.wing-buttons');
 const wrapper = document.querySelector(".wrapperouter");
 const backButton = document.querySelector(".back-btn");
 const tl = new TimelineMax();
-tl.fromTo(
-    container,
-    1,
-    { height: "0vw" },
-    { height: "45vw", ease: Power2.easeInOut }
-).fromTo(
-    container,
-    1,
-    { width: "100vw" },
-    { width: "80vw", ease: Power2.easeInOut }
-)
-    .fromTo(wrapper, 1.2, { x: '-100%' }, { x: '0%', ease: Power2.easeInOut }, "-=1.2")
+tl
+    // .fromTo(wrapper,.7, { x: '-100%' }, { x: '0%', ease: Power2.easeInOut },)
+    .fromTo(
+        container,
+        .8,
+        { height: "0vh" },
+        { height: "100vh", ease: Power2.easeInOut },
+    )
+
     .fromTo(
         container,
         .5,
-        { boxShadow: "0px 0px 0px 0px rgba(11,5,62,1)" },
-        { boxShadow: "0px 0px 30px 20px rgba(11,5,62,1)", ease: Power2.easeOut }
+        { boxShadow: " rgba(61,75,82,0.5) 0px 0px 30px 10px" },
+        { boxShadow: " rgba(50,54,60,0.5) 0px 0px 30px 10px", ease: Power2.easeOut }
     )
     .fromTo(
         container,
-        .1,
-        { backgroundColor: '#0a1042' },
-        { backgroundColor: '#d1d5d9', ease: Power2.easeIn }
+        .5,
+        { backgroundImage: 'linear-gradient(60deg, #29323c 0%, #485563 100%)' },
+        { backgroundImage: 'linear-gradient(60deg, #29323c 0%, #485563 100%)', ease: Power2.easeInOut },
+        "-=1"
     )
 const exploreBtn = document.getElementById("explore");
 exploreBtn.addEventListener('click', () => {
@@ -81,8 +79,8 @@ backButton.addEventListener('click', () => {
             ml,
             1,
             { left: "0%" },
-            { left: "100%", ease: Power2.easeInOut }, 
-            
+            { left: "100%", ease: Power2.easeInOut },
+
         )
         .fromTo(
             yellow,
