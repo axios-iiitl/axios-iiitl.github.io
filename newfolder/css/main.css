@@ -5,7 +5,7 @@ body {
   box-sizing: border-box;
 }
 .polymorph {
-  fill: #0a1042;
+  fill: url("#g1");
 }
 .wrapper {
   width: 100vw;
@@ -19,14 +19,12 @@ body {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  background-size: 30vw;
-  background-image: url(../images/Confetti-Doodles.svg);
+  background-image: linear-gradient(-270deg, #2e3946 0%, #576779 100%);
+  /* background-image: url(../images/Confetti-Doodles.svg); */
   z-index: -2;
 }
 .container {
-  box-shadow: 0px 0px 30px 20px rgba(11, 5, 62, 1);
-  height: 45vw;
-  /* width: 80vw; */
+  box-shadow: #32363c8f 0px 0px 30px 10px;
   width: 100vw;
   border-radius: 1px;
   overflow: hidden;
@@ -34,19 +32,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem 4rem;
   z-index: 0;
-  background-color: #dadada;
+  /* background-image: linear-gradient(
+    60deg,
+    rgba(41, 50, 60, 0) 0%,
+    rgba(72, 85, 99, 0) 100%
+  ); */
+  background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
   box-sizing: border-box;
+  /* height: 45vw; */
+  /* width: 80vw; */
 }
 .container svg {
   width: 100%;
-  height: 100%;
   z-index: -1;
   position: absolute;
-  /* transform: translate(1px,3px); */
   margin: 0;
   padding: 0;
+  /* height: 100%; */
 }
 .animationcover {
   padding-right: 1rem;
@@ -61,7 +65,7 @@ body {
   justify-content: space-between;
 }
 .parttwo {
-  width: 55%;
+  width: 50%;
   height: 100%;
 }
 .logo img {
@@ -147,4 +151,15 @@ body {
 }
 .seperator {
   margin-bottom: 6rem;
+}
+.backdrop{
+  filter:  sepia(50%) brightness(50%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../images/webd3.jpg);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: 6;
 }
