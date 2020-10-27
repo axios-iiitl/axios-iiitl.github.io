@@ -20,6 +20,8 @@
   border-radius: 3px;
   display: flex;
   align-items: center;
+  z-index: 8;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.596);
 }
 
 .header-text {
@@ -51,7 +53,7 @@
   margin-top: 1rem;
   display: inline-block;
   border: none;
-  background-color: #0f4061;
+  background-color: #b76520;
   color: #d9d1e7;
   padding: 1rem 1.4rem;
   font-size: 1rem;
