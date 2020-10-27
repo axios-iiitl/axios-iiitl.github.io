@@ -12,10 +12,18 @@ body {
   scroll-behavior: smooth;
   background-color: #070c35;
   overflow-x: hidden;
-  font-family: DisposableDroidBB;
+  /* font-family: DisposableDroidBB; */
 }
 
-/* @font-face { font-family: DisposableDroidBB; src: url('../../DisposableDroidBB.ttf'); } */
+@font-face { font-family: DisposableDroidBB; src: url('../fonts/DisposableDroidBB.ttf'); }
+
+.landing-page img{
+  position: relative;
+  left: 10px;
+  top: 10px;
+  width: 50px;
+  height: 60px;
+}
 
 .center {
   display: flex;
@@ -29,18 +37,20 @@ body {
 
 .center h3 {
   font-size: 25px;
-  color: rgb(17, 226, 226);
+  color: #E96672;
   font-weight: 200;
   width: 50%;
   text-align: center;
+  margin: 0;
 }
 
 .text {
   margin: 30px;
-  margin-top: 150px;
+  margin-top: 160px;
   text-decoration: none;
   color: rgba(242, 248, 248, 0.877);
   font-size: 80px;
+  font-family: DisposableDroidBB;
 }
 
 @media only screen and (max-width: 700px) {
@@ -132,6 +142,18 @@ body {
   align-items: center;
   height: 100%;
   flex-wrap: wrap;
+}
+
+.profile-card-holder{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: #ffb6496e;
+  height: 100%;
+}
+
+.profile-card-holder h3{
+  margin: 0;
 }
 
 /* .profile-container:hover */
@@ -302,16 +324,20 @@ body {
 }
 
 .footer h2 {
-  color: #f1f1f1;
+  color: #f1f1f1c5;
   margin: 20px;
   font-weight: 200;
 }
 
 .contects a {
   font-size: 30px;
-  color: #c6c9cc;
+  color: #c6c9cc4f;
   margin: 10px;
   text-decoration: none;
+}
+
+.contects a:hover{
+  color: #c6c9cce3;
 }
 
 .copy {
