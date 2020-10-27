@@ -8,7 +8,7 @@ const downcover = document.querySelector('.down-cover');
 const rightcover = document.querySelector('.right-cover');
 const wingName = document.querySelector('#wing-name');
 const wingQuote = document.querySelector('#wing-quote');
-const background = document.querySelector('.ml')
+const background = document.querySelector('.backdrop')
 const webContainer = document.querySelector('.webcontainer')
 
 const details = {
@@ -39,7 +39,7 @@ const details = {
     },
     Cy: {
         text: "Security used to be an inconvenience sometimes, but now it's a necessity all the time.",
-        img:  'url(./images/cyberbackground.jpg)',
+        img:  'url(./images/hacker.jpg)',
         back:'url(./images/cyback.png)',
     },
 }
