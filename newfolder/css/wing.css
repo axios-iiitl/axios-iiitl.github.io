@@ -49,6 +49,7 @@ a {
   height: 100vh;
   font-size: 1.1rem;
   opacity: 0;
+  display: none;
   width: 100vw;
   font-family: "Muli", sans-serif;
 }

@@ -78,7 +78,6 @@ function bottomcoveranimation(action) {
         { top: "0%" },
         { top: "100%", ease: Power2.easeInOut }
     )
-    console.log(webContainer.style.background);
     setTimeout(function () {
         wingName.innerText = action.innerText;
         wingQuote.innerText = details[wingg].text;
