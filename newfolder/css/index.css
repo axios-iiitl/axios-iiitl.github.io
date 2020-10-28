@@ -1,3 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.backdrop {
+  filter: sepia(50%) brightness(50%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../images/webd3.jpg);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: 6;
+}
 .index__wrapper {
   width: 100vw;
   height: 100vh;
@@ -9,13 +26,14 @@
   width: 100%;
   padding-top: 2rem;
   padding-left: 6rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 .axios__logo {
   width: 3rem;
 }
 .index__footer {
   padding: 3rem 8rem;
+  padding-top: 0;
   position: absolute;
   bottom: 0;
   display: flex;
@@ -85,6 +103,9 @@
   border-radius: 20px;
   margin-top: 1.5rem;
   cursor: pointer;
+}
+.index__explore:focus {
+  outline: none;
 }
 .index__flex {
   display: flex;
