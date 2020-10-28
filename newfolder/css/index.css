@@ -1,0 +1,103 @@
+.index__wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(47, 47, 48);
+}
+.index__logo {
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 6rem;
+  padding-bottom: 2rem;
+}
+.axios__logo {
+  width: 3rem;
+}
+.index__footer {
+  padding: 3rem 8rem;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.index__icons img {
+  width: 2rem;
+  padding-right: 1.5rem;
+}
+.index__arrowicon {
+  width: 2rem;
+  cursor: pointer;
+}
+.logo__curve {
+  height: 3.5rem;
+}
+.paragraph p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 100;
+  font-weight: 400;
+  color: rgb(206, 207, 207);
+}
+.paragraph p:first-child {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  color: white;
+}
+.paragraph p:nth-child(3) {
+  font-size: 1.1rem;
+  margin-top: 0rem;
+  color: rgb(206, 207, 207);
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+.index__content__one {
+  margin-left: 6rem;
+  padding-left: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-left: 3px solid white;
+  height: max-content;
+}
+.index__arrow {
+  height: 1rem;
+  margin: auto 0;
+  margin-left: 0.6rem;
+  cursor: pointer;
+}
+.index__explore {
+  font-size: 1.2rem;
+  border: 2px solid #d14e05;
+  background: transparent;
+  color: white;
+  padding: 0.5rem 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+.index__content__two {
+  /* border: 1px solid red; */
+}
+.index__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.index__content__two {
+  /* height:20rem; */
+  margin-right: 7rem;
+}
+.index__asset {
+  /* width: 30rem; */
+  height: 20rem;
+}

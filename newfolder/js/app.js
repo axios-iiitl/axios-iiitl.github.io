@@ -6,6 +6,9 @@ const ml = document.querySelector('.ml');
 const wingButtons = document.querySelector('.wing-buttons');
 const wrapper = document.querySelector(".wrapperouter");
 const backButton = document.querySelector(".back-btn");
+const indexexplore = document.querySelector(".index__explore");
+const indexarrow = document.querySelector(".index__arrow");
+const indexarrowicon = document.querySelector(".index__arrowicon");
 const tl = new TimelineMax();
 tl
     // .fromTo(wrapper,.7, { x: '-100%' }, { x: '0%', ease: Power2.easeInOut },)
@@ -29,8 +32,7 @@ tl
         { backgroundImage: 'linear-gradient(60deg, #29323c 0%, #485563 100%)', ease: Power2.easeInOut },
         "-=1"
     )
-const exploreBtn = document.getElementById("explore");
-exploreBtn.addEventListener('click', () => {
+    indexarrow.addEventListener('mouseover', () => {
     tl
         .fromTo(
             yellow,
@@ -64,6 +66,41 @@ exploreBtn.addEventListener('click', () => {
             { left: "100%" },
             { left: "0%", ease: Power2.easeInOut }, "-=1.2"
         )
+})
+indexarrowicon.addEventListener('click', () => {
+    tl
+    .fromTo(
+        yellow,
+        1,
+        { left: "-100%" },
+        { left: "0", ease: Power2.easeInOut }
+    )
+    .fromTo(
+        hero,
+        .1,
+        { transform: "translateX(0)" },
+        { transform: "translateX(-200%)", ease: Power2.easeInOut },
+        // "-=1.2"
+    )
+    .fromTo(
+        yellow,
+        1,
+        { left: "0" },
+        { left: "-100%", ease: Power2.easeInOut },
+    )
+    .fromTo(
+        wingButtons,
+        .1
+        ,
+        { opacity: "0" },
+        { opacity: "1", ease: Power2.easeInOut },
+    )
+    .fromTo(
+        ml,
+        1,
+        { left: "100%" },
+        { left: "0%", ease: Power2.easeInOut }, "-=1.2"
+    )
 })
 
 backButton.addEventListener('click', () => {
@@ -103,3 +140,4 @@ backButton.addEventListener('click', () => {
             { left: "-100%", ease: Power2.easeInOut }
         )
 })
+indexexplore.style.borderRadius = (`${indexexplore.offsetHeight / 2}px`)
