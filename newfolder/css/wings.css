@@ -10,7 +10,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: #070c35;
+  background-color: #011c2e;
   overflow-x: hidden;
   /* font-family: DisposableDroidBB; */
 }
@@ -37,7 +37,7 @@ body {
 
 .center h3 {
   font-size: 25px;
-  color: #E96672;
+  color: #dbab0e;
   font-weight: 200;
   width: 50%;
   text-align: center;
