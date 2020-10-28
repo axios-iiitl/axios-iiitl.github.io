@@ -1,9 +1,9 @@
 .index__wrapper {
   width: 100vw;
   height: 100vh;
-  display: flex;
   flex-direction: column;
-  background-color: rgb(47, 47, 48);
+  background-image: url(../images/keyboard.png);
+  background-size: cover;
 }
 .index__logo {
   width: 100%;
@@ -27,7 +27,8 @@
 
 .index__icons img {
   width: 2rem;
-  padding-right: 1.5rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
 }
 .index__arrowicon {
   width: 2rem;
@@ -85,19 +86,11 @@
   margin-top: 1.5rem;
   cursor: pointer;
 }
-.index__content__two {
-  /* border: 1px solid red; */
-}
 .index__flex {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .index__content__two {
-  /* height:20rem; */
   margin-right: 7rem;
-}
-.index__asset {
-  /* width: 30rem; */
-  height: 20rem;
 }
