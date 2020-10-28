@@ -61,7 +61,7 @@ a {
   font-weight: 550;
   left: 50%;
   cursor: pointer;
-  border-bottom: 3px solid rgb(194, 150, 5);
+  border-bottom: 3px solid #d14c059d;
   transform: translateX(-50%);
 }
 .appd-btn {
@@ -73,7 +73,7 @@ a {
   font-weight: 550;
   left: 0;
   cursor: pointer;
-  border-bottom: 3px solid rgb(194, 150, 5);
+  border-bottom: 3px solid #d14c059d;
   transform-origin: 0 0;
   transform: rotateZ(-90deg) translateX(-50%);
 }
@@ -86,7 +86,7 @@ a {
   font-weight: 550;
   right: 0;
   cursor: pointer;
-  border-bottom: 3px solid rgb(194, 150, 5);
+  border-bottom: 3px solid #d14c059d;
   transform-origin: 50% 50%;
   transform: rotateZ(90deg) translate(-15%, -100%);
 }
@@ -99,7 +99,7 @@ a {
   left: 0;
   cursor: pointer;
   margin: 0 1rem;
-  border-bottom: 3px solid rgb(194, 150, 5);
+  border-bottom: 3px solid #d14c059d;
   transform: translateY(-35%);
 }
 .cc-btn {
@@ -111,7 +111,7 @@ a {
   right: 0;
   cursor: pointer;
   margin: 0 1rem;
-  border-bottom: 3px solid rgb(194, 150, 5);
+  border-bottom: 3px solid #d14c059d;
   transform: translateY(-35%);
 }
 .design-btn {
@@ -123,7 +123,7 @@ a {
   font-weight: 550;
   left: 50%;
   transform: translate(-50%, -35%);
-  border-bottom: 3px solid rgb(194, 150, 5);
+  border-bottom: 3px solid #d14c059d;
 }
 .back-btn {
   position: absolute;
