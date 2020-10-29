@@ -1,0 +1,129 @@
+@media screen and (min-width: 1300px) {
+  .logo__curve {
+    height: 5.7rem;
+  }
+  .paragraph p {
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+  }
+  .paragraph p:first-child {
+    font-size: 3.1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+  }
+  .paragraph p:nth-child(3) {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .index__explore {
+    font-size: 1.8rem;
+    border: 3.5px solid #d14e05;
+    padding: 0.75rem 1.8rem;
+    border-radius: 20px;
+    margin-top: 1.9rem;
+  }
+  .index__arrow {
+    height: 1.8rem;
+    margin: auto 0;
+    margin-left: 1.1rem;
+  }
+  .index__footer {
+    padding: 4.5rem 12rem;
+    padding-top: 0;
+  }
+  .axios__logo {
+    width: 4.7rem;
+  }
+  .index__logo {
+    padding-top: 3.2rem;
+    padding-left: 8.5rem;
+    padding-bottom: 5rem;
+  }
+  .index__icons img {
+    width: 3.2rem;
+    margin-right: 2.2rem;
+  }
+  .index__arrowicon {
+    width: 3.2rem;
+  }
+  .index__content__one {
+    margin-left: 8.1rem;
+    padding-left: 1.8rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    border-left: 4.5px solid white;
+    height: max-content;
+  }
+  .index__content__two {
+    margin-right: 10.7rem;
+  }
+  .carousel {
+    width: 28.5rem !important;
+  }
+  .carousel-item img {
+    width: 28.5rem !important;
+    height: 28.5rem !important;
+  }
+  .carousel-actions {
+    padding-top: 1.3rem !important;
+  }
+  .carousel-actions #carousel-slide-nav span {
+    display: inline-block;
+    height: 18px !important;
+    box-sizing: border-box;
+    width: 18px !important;
+    border-radius: 9px !important;
+    background: transparent;
+    border: 2px solid white !important;
+    transition: all 0.5s;
+  }
+
+  .carousel-actions #carousel-slide-nav span {
+    margin-right: 22px !important;
+  }
+  .webcontainer {
+    width: 1030px;
+    height: 550px;
+    max-width: 1200px;
+    border-radius: 3px;
+    box-shadow: 0 0 40px 8px rgba(0, 0, 0, 0.596);
+  }
+  .header-text {
+    padding-right: 12rem;
+    padding-left: 3.5rem;
+    padding-top: 25%;
+  }
+  .header-text h2 {
+    font-size: 3.3rem;
+    letter-spacing: 4px;
+  }
+  .header-text p {
+    line-height: 1.3;
+    font-size: 1.35rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+  }
+
+  .header-text .btn {
+    margin-top: 1rem;
+    padding: 1.3rem 1.8rem;
+    font-size: 1.6rem;
+  }
+  .wing-buttons {
+    font-size: 1.5rem;
+  }
+
+  .webd-btn,
+  .appd-btn,
+  ml-btn,
+  .cybersec-btn,
+  .cc-btn,
+  .design-btn {
+    padding: 1.1rem 0;
+  }
+
+  .back-btn {
+    font-size: 1.5rem;
+    padding: 1.1rem 0;
+  }
+}

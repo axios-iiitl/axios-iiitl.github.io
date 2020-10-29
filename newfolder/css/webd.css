@@ -1,0 +1,60 @@
+.webd_mainpage {
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(#0b36537a, #0b365393),url(../images/webd3.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.rishab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/webimg/rishab.jpeg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+
+  .deepak::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/webimg/deepak.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+
+  .narendar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/webimg/narendar.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+
+  .lav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/webimg/lav.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
