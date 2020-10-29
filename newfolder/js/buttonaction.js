@@ -171,5 +171,5 @@ function leftcoveranimation(action) {
 }
 
 btn.addEventListener('click', () => {
-    location.assign(urlofpage);
-})
+    window.open(urlofpage);
+}) 
