@@ -4,9 +4,10 @@
   position: absolute;
   height: 450px;
   width: 675px;
-  background-color: #0b36533f;
+  background-color: #12121379;
   border-radius: 3px;
-  z-index: -1;
+  z-index: 8;
+  display: none;
 }
 
 .webcontainer {
