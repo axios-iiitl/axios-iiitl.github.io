@@ -300,4 +300,7 @@
   .backdrop {
     background-image: url(../images/cyback_mobile.jpg);
 }
+.index__wrapper {
+  background-image: url(../images/keyboard_mobile.jpg);
+}
 }
