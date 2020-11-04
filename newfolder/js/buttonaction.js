@@ -38,7 +38,7 @@ const details = {
         url: './wings/ml.html',
     },
     Co: {
-        text: 'A computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things. They are, in short, a perfect match.',
+        text: 'A computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things.',
         img: 'url(./images/ccbackground.jpg)',
         back: 'url(./images/ccbackground.jpg)',
         url: './wings/cc.html',
