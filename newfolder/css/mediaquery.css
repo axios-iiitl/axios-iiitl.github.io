@@ -222,10 +222,8 @@
   }
   .webcontainer {
     width: 300px;
-    /* z-index: 2; */
     height: 450px;
-    /* margin: auto; */
-    background: url(../images/hacker.jpg);
+    background: url(../images/hacker_mobile.jpg);
     background-size: cover;
     border-radius: 3px;
     display: flex;
@@ -271,7 +269,6 @@
     width: 260px;
     height: 480px;
     background-color: #12121360;
-    /* z-index:; */
     display: none;
   }
   .header-text {
@@ -299,6 +296,8 @@
     font-size: 3em !important;
     height: 2.5em;
     left: 0;
-
   }
+  .backdrop {
+    background-image: url(../images/cyback_mobile.jpg);
+}
 }
