@@ -89,11 +89,11 @@ function bottomcoveranimation(action) {
         wingQuote.innerText = details[wingg].text;
         if(screen.width<800)
         {
-            console.log(screen.width);
+           
             webContainer.style.background = `${details[wingg].img}_mobile.jpg)`;
         }
         else{
-            console.log(screen.width);
+          
             webContainer.style.background = details[wingg].img + '.jpg)';
         }
         webContainer.style.backgroundSize = "cover";
@@ -123,11 +123,11 @@ function rightcoveranimation(action) {
         wingQuote.innerText = details[wingg].text;
         if(screen.width<800)
         {
-            console.log(screen.width);
+         
             webContainer.style.background = `${details[wingg].img}_mobile.jpg)`;
         }
         else{
-            console.log(screen.width);
+          
             webContainer.style.background = details[wingg].img + '.jpg)';
         }
         webContainer.style.backgroundSize = "cover"
@@ -155,11 +155,11 @@ function topcoveranimation(action) {
         wingQuote.innerText = details[wingg].text;
         if(screen.width<800)
         {
-            console.log(screen.width);
+      
             webContainer.style.background = `${details[wingg].img}_mobile.jpg)`;
         }
         else{
-            console.log(screen.width);
+         
             webContainer.style.background = details[wingg].img + '.jpg)';
         }
         webContainer.style.backgroundSize = "cover"
@@ -188,13 +188,11 @@ function leftcoveranimation(action) {
         wingQuote.innerText = details[wingg].text;
         if(screen.width<800)
         {
-            console.log(screen.width);
             webContainer.style.background = `${details[wingg].img}_mobile.jpg)`;
         }
         else{   
-           let p = details[wingg].img + '.jpg)';
-           console.log(p);
-           webContainer.style.background = p;
+            
+           webContainer.style.background = details[wingg].img + '.jpg)';
         }   
         webContainer.style.backgroundSize = "cover"
         background.style.backgroundImage = details[wingg].back +  '.jpg)';
