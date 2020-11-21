@@ -138,6 +138,7 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
+    /* height: 80vh; */
     align-items: center;
   }
   .axios__logo {
@@ -153,13 +154,12 @@
   }
   .index__content__one {
     margin-left: 0rem;
-    padding-left: .8rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    border-left: 2.5px solid white;
+    padding-left: 0rem;
+    padding-top: 2rem;
+    margin-right: 1rem;
+    padding-bottom: 2rem;
+    border-left: 0px solid white;
     height: max-content;
-    align-self: center;
-    /* align-self: flex-start; */
   }
   .paragraph p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -207,17 +207,18 @@
     margin-right: 1rem;
   }
   .index__footer {
-    padding: .5rem 2rem;
-    /* padding-bottom: 4rem; */
+    padding: 0.5rem 1.5rem !important;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    bottom: 8%;
+    height: 3rem;
     box-sizing: border-box;
   }
   .index__explore {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 400;
     padding: 0.4rem 1rem;
     margin-top: 1rem;
   }
@@ -234,7 +235,7 @@
     box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.596);
   }
   .wing-buttons {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .webd-btn {
     padding: 0.25rem 0;
@@ -248,18 +249,21 @@
     transform: rotateZ(90deg) translate(-15%, -150%);
   }
   .cybersec-btn {
-    bottom: 3.5rem;
+    /* bottom: 3.5rem; */
     padding: 0.25rem 0;
-    margin-left:0;
+    margin-left: 0;
+    margin-bottom: 14%;
   }
   .cc-btn {
-    bottom: 3.5rem;
+    /* bottom: 3.5rem; */
     padding: 0.25rem 0;
     margin-right: 0;
+    margin-bottom: 14%;
   }
   .design-btn {
-    bottom: 3.5rem;
+    /* bottom: 3.5rem; */
     padding: 0.25rem 0;
+    margin-bottom: 14%;
   }
   .back-btn {
     margin-top: 1rem;
@@ -269,22 +273,22 @@
   .back {
     width: 260px;
     height: 480px;
-    background-color: #12121360;
+    background-color: #12121342;
     display: none;
   }
   .header-text {
     background-color: rgba(54, 53, 53, 0.411);
-    padding-right: 1.5rem;
+    padding-right: 1.6rem;
     padding-left: 2rem;
     padding-top: 75%;
   }
   .header-text h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 2px;
   }
   .header-text p {
     line-height: 1.2;
-    color: #d1d1d1;
+    color: #c5c5c5;
   }
   .header-text .btn {
     margin-top: 0.7rem;
@@ -300,8 +304,8 @@
   }
   .backdrop {
     background-image: url(../images/cyback_mobile.jpg);
-}
-.index__wrapper {
-  background-image: url(../images/keyboard_mobile.jpg);
-}
+  }
+  .index__wrapper {
+    background-image: url(../images/keyboard_mobile.jpg);
+  }
 }
