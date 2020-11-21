@@ -91,6 +91,9 @@ body {
   color: #fff7f7c0;
   margin: 0;
 }
+#fill{
+  background-color: #fff7f7c0;
+}
 
 .ftco-section {
   background: linear-gradient(#0b3653b2, #0b3653bd), url(../images/iiitl.png);
@@ -106,6 +109,7 @@ body {
   height: 100%;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .work_text {

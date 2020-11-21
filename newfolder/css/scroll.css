@@ -1,0 +1,50 @@
+.scroll {
+  margin-top: 0rem;
+  margin-bottom: 0.8rem;
+  height: 3rem;
+  width: 1.8rem;
+  border-radius: 25vmin;
+  border: 0.2rem solid #cecece;
+  position: absolute;
+  left: 50%;
+  bottom: 0rem;
+  transform: translateX(-50%);
+  transition:opacity 600ms;
+  animation: scroll2 2.5s infinite alternate;
+}
+.scroll:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0.5rem;
+  height: 0.3rem;
+  width: 0.3rem;
+  background: #cecece;
+  border-radius: 50%;
+  animation: scroll 5s infinite ;
+}
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, 0.7rem);
+  }
+}
+@keyframes scroll2 {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(-50%, 0.7rem);
+  }
+}

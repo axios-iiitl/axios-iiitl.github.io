@@ -89,6 +89,15 @@ body {
   margin: auto 0;
   margin-left: 0.6rem;
   cursor: pointer;
+  animation: move .8s ease-in-out infinite alternate ;
+}
+@keyframes move{
+  0%{ 
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(5px);
+  }
 }
 .index__explore {
   font-size: 1.2rem;
