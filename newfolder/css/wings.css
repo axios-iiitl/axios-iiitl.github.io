@@ -15,7 +15,7 @@ body {
   scroll-behavior: smooth;
   background-color: #242525 !important;
   overflow-x: hidden;
-  /* font-family: DisposableDroidBB; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @font-face {
@@ -44,7 +44,7 @@ body {
 .center h3 {
   font-size: 25px;
   color: #dbab0e;
-  font-weight: 200;
+  font-weight: 400;
   width: 50%;
   text-align: center;
   margin: 0;
@@ -329,7 +329,7 @@ body {
 }
 
 .profile-card .icons i:hover {
-  /* background-image:   linear-gradient(to right, rgb(255, 72, 0), rgb(255, 136, 0)) !important; */
+  background: linear-gradient(to right, #e0bb16 0%, #d1a207 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -347,7 +347,7 @@ body {
   margin-top: 1rem;
   background: #2371ae;
   border-radius: 50px;
-  /* background:   linear-gradient(to right, rgb(255, 72, 0), rgb(255, 136, 0)) !important); */
+  background: linear-gradient(to right, #e0bb16 0%, #d1a207 100%);
 }
 
 /*footer**/

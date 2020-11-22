@@ -19,6 +19,54 @@
     opacity: 1;  
     transition: all .5s ease-in;
   }
+.akshat::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/akshat.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+.pravin::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/pravin.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+.jai::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/jai.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+.chahat::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/chahat.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
 
   .sambhav::before {
     content: '';
