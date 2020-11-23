@@ -6,7 +6,7 @@ const wingButtons = document.querySelector(".wing-buttons");
 const wrapper = document.querySelector(".wrapperouter");
 const backButton = document.querySelector(".back-btn");
 const indexexplore = document.querySelector(".index__explore");
-const indexmore = document.querySelector(".index__more");
+// const indexmore = document.querySelector(".index__more");
 const indexarrowicon = document.querySelector(".index__arrowicon");
 const indexwrapper = document.querySelector(".index__wrapper");
 const wingbuttons = document.querySelector(".wing-buttons");
@@ -15,9 +15,9 @@ const tl = new TimelineMax();
 var aboutpage = "./wings/about.html";
 indexexplore.style.borderRadius = `${indexexplore.offsetHeight / 2}px`;
 
-indexmore.addEventListener("click", () => {
-  window.open(aboutpage);
-});
+// indexmore.addEventListener("click", () => {
+//   window.open(aboutpage);
+// });
 
 indexexplore.addEventListener("click", () => {
   tl.fromTo(yellow, 1, { left: "-100%" }, { left: "0", ease: Power2.easeInOut })
