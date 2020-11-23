@@ -7,18 +7,6 @@
   background-size: cover;
 }
 
-.rishab::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('../images/webimg/rishabh.jpg') no-repeat center center/cover;
-    z-index: -1;
-    opacity: 1;  
-    transition: all .5s ease-in;
-  }
 
   .ashutosh::before {
     content: '';

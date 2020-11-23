@@ -4,6 +4,30 @@ body {
   overflow: hidden;
   box-sizing: border-box;
 }
+button:focus{
+  outline: 0;
+}
+.navbutton {
+  display: flex;
+  flex-direction: row;
+}
+.mobilecover{
+display: none;
+}
+.index__more {
+  font-size: 1.2rem;
+  background-color:#d14c0515;
+  border: 2px solid #d14e05;
+  color: white;
+  font-weight: 200;
+  padding: 0.5rem 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
 .backdrop {
   filter: sepia(50%) brightness(50%);
   width: 100%;
@@ -89,13 +113,13 @@ body {
   margin: auto 0;
   margin-left: 0.6rem;
   cursor: pointer;
-  animation: move .8s ease-in-out infinite alternate ;
+  animation: move 0.8s ease-in-out infinite alternate;
 }
-@keyframes move{
-  0%{ 
+@keyframes move {
+  0% {
     transform: translateX(0px);
   }
-  100%{
+  100% {
     transform: translateX(5px);
   }
 }
@@ -110,6 +134,7 @@ body {
   align-items: center;
   border-radius: 20px;
   margin-top: 1.5rem;
+  margin-right: 40px;
   cursor: pointer;
 }
 .index__explore:focus {

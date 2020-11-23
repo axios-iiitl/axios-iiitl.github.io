@@ -6,13 +6,18 @@ const wingButtons = document.querySelector(".wing-buttons");
 const wrapper = document.querySelector(".wrapperouter");
 const backButton = document.querySelector(".back-btn");
 const indexexplore = document.querySelector(".index__explore");
+const indexmore = document.querySelector(".index__more");
 const indexarrowicon = document.querySelector(".index__arrowicon");
 const indexwrapper = document.querySelector(".index__wrapper");
 const wingbuttons = document.querySelector(".wing-buttons");
 const back = document.querySelector(".back");
 const tl = new TimelineMax();
-
+var aboutpage = "./wings/about.html";
 indexexplore.style.borderRadius = `${indexexplore.offsetHeight / 2}px`;
+
+indexmore.addEventListener("click", () => {
+  window.open(aboutpage);
+});
 
 indexexplore.addEventListener("click", () => {
   tl.fromTo(yellow, 1, { left: "-100%" }, { left: "0", ease: Power2.easeInOut })
@@ -48,13 +53,13 @@ indexexplore.addEventListener("click", () => {
 });
 indexarrowicon.addEventListener("click", () => {
   tl.fromTo(ml, 1, { left: "100%" }, { left: "0%", ease: Power2.easeInOut })
-  .fromTo(
-    back,
-    0.1,
-    { display: "none" },
-    { display: "block", ease: Power2.easeInOut },
-    "-=.2"
-  )
+    .fromTo(
+      back,
+      0.1,
+      { display: "none" },
+      { display: "block", ease: Power2.easeInOut },
+      "-=.2"
+    )
     .fromTo(
       back,
       0.01,
@@ -81,13 +86,14 @@ backButton.addEventListener("click", () => {
     0.1,
     { opacity: "1" },
     { opacity: "0", ease: Power2.easeInOut }
-  ).fromTo(
-    back,
-    0.1,
-    { display: "block" },
-    { display: "none", ease: Power2.easeInOut },
-    "-=.2"
   )
+    .fromTo(
+      back,
+      0.1,
+      { display: "block" },
+      { display: "none", ease: Power2.easeInOut },
+      "-=.2"
+    )
     .fromTo(
       wingButtons,
       0.1,

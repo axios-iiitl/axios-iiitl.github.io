@@ -36,6 +36,20 @@
     border-radius: 20px;
     margin-top: 1.9rem;
   }
+  .index__more {
+    font-size: 1.8rem;
+    background-color:#d14c0515;
+    border: 3.5px solid #d14e05;
+    color: white;
+    font-weight: 200;
+    padding: 0.75rem 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
   .index__arrow {
     height: 1.8rem;
     margin: auto 0;
@@ -141,6 +155,19 @@
     height: 100vh;
     position: fixed;
   }
+  .mobilecover{
+    width:100%;
+    height:3rem;
+    z-index: 6;
+    text-align: center;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    background-color: rgb(29, 29, 29);
+  }
   .index__flex {
     display: flex;
     flex-direction: column-reverse;
@@ -150,6 +177,16 @@
   }
   .axios__logo {
     width: 2.2rem;
+  }
+  .index__more {
+    font-size: 1.2rem;
+    background-color:#d14c0515;
+    border: 2px solid #d14e05;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0.4rem 1rem;
+    margin-top: 1rem;
+    
   }
   .index__logo {
     padding-top: 1.5rem;
@@ -228,6 +265,7 @@
     font-weight: 400;
     padding: 0.4rem 1rem;
     margin-top: 1rem;
+    margin-right: 30px !important;
   }
   .webcontainer {
     width: 300px;
