@@ -1,5 +1,5 @@
 ///
-/// Forty by HTML5 UP
+/// Solid State by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -22,9 +22,8 @@
 					'color #{_duration(transition)} ease-in-out'
 				));
 				border-bottom: 0;
+				border-radius: _size(border-radius);
 				display: inline-block;
-				font-size: 0.8em;
-				font-weight: _font(weight-bold);
 				height: 1.5em;
 				line-height: 1.5em;
 				margin: 0 0.125em;
@@ -32,18 +31,12 @@
 				padding: 0 0.5em;
 				text-align: center;
 
+				&:hover {
+					background-color: _palette(border-bg);
+				}
+
 				&.active {
-					background-color: _palette(fg-bold);
-					color: _palette(bg);
-
-					&:hover {
-						background-color: _palette(highlight);
-						color: _palette(bg) !important;
-					}
-
-					&:active {
-						background-color: desaturate(darken(_palette(highlight), 15), 5);
-					}
+					background-color: _palette(accent);
 				}
 			}
 
@@ -62,8 +55,20 @@
 					display: none;
 				}
 
+				.button {
+					width: 100%;
+				}
+
 				&:first-child {
-					padding-right: 0;
+					width: calc(50% - 2px);
+					text-align: left;
+					padding-right: 0.325em;
+				}
+
+				&:last-child {
+					width: calc(50% - 2px);
+					text-align: right;
+					padding-left: 0.325em;
 				}
 			}
 		}

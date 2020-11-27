@@ -1,0 +1,356 @@
+@media screen and (min-width: 1650px) {
+  .axios__logo {
+    width: 4.7rem;
+  }
+  .index__logo {
+    padding-top: 3.2rem;
+    padding-left: 8.5rem;
+    padding-bottom: 5rem;
+  }
+  .logo__curve {
+    height: 5.7rem;
+  }
+  .paragraph p {
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+  }
+  .paragraph p:first-child {
+    font-size: 3.1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+  }
+  .paragraph p:nth-child(3) {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .back {
+    width: 940px;
+    height: 620px;
+    background-color: #12121342;
+    display: none;
+  }
+  .index__explore {
+    font-size: 1.8rem;
+    border: 3.5px solid #d14e05;
+    padding: 0.75rem 1.8rem;
+    border-radius: 20px;
+    margin-top: 1.9rem;
+  }
+  .index__more {
+    font-size: 1.8rem;
+    background-color:#d14c0515;
+    border: 3.5px solid #d14e05;
+    color: white;
+    font-weight: 200;
+    padding: 0.75rem 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
+  .index__arrow {
+    height: 1.8rem;
+    margin: auto 0;
+    margin-left: 1.1rem;
+  }
+  .index__footer {
+    padding: 4.5rem 12rem;
+    padding-top: 0;
+  }
+  .index__icons img {
+    width: 3.2rem;
+    margin-right: 2.2rem;
+  }
+  .index__arrowicon {
+    width: 3.2rem;
+  }
+  .index__content__one {
+    margin-left: 8.1rem;
+    padding-left: 1.8rem;
+    padding-top: 3.5rem;
+    margin-top: 2.5rem;
+    padding-bottom: 3.5rem;
+    border-left: 4.5px solid white;
+    height: max-content;
+  }
+  .index__content__two {
+    margin-right: 10.7rem;
+  }
+  .carousel {
+    width: 28.5rem !important;
+  }
+  .carousel-item img {
+    width: 28.5rem !important;
+    height: 28.5rem !important;
+  }
+  .carousel-actions {
+    padding-top: 1.3rem !important;
+  }
+  .carousel-actions #carousel-slide-nav span {
+    display: inline-block;
+    height: 18px !important;
+    box-sizing: border-box;
+    width: 18px !important;
+    border-radius: 9px !important;
+    background: transparent;
+    border: 2px solid white !important;
+    transition: all 0.5s;
+  }
+
+  .carousel-actions #carousel-slide-nav span {
+    margin-right: 22px !important;
+  }
+  .webcontainer {
+    width: 1030px;
+    height: 550px;
+    max-width: 1200px;
+    border-radius: 3px;
+    box-shadow: 0 0 40px 8px rgba(0, 0, 0, 0.596);
+  }
+  .header-text {
+    padding-right: 12rem;
+    padding-left: 3.5rem;
+    padding-top: 25%;
+  }
+  .header-text h2 {
+    font-size: 3.3rem;
+    letter-spacing: 4px;
+  }
+  .header-text p {
+    line-height: 1.3;
+    font-size: 1.35rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+  }
+
+  .header-text .btn {
+    margin-top: 1rem;
+    padding: 1.3rem 1.8rem;
+    font-size: 1.6rem;
+  }
+  .wing-buttons {
+    font-size: 1.5rem;
+  }
+
+  .webd-btn,
+  .appd-btn,
+  ml-btn,
+  .cybersec-btn,
+  .cc-btn,
+  .design-btn {
+    padding: 1.1rem 0;
+  }
+
+  .back-btn {
+    font-size: 1.5rem;
+    padding: 1.1rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+  }
+  .mobilecover{
+    width:100%;
+    height:3rem;
+    z-index: 6;
+    text-align: center;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    background-color: rgb(29, 29, 29);
+  }
+  .index__flex {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    /* height: 80vh; */
+    align-items: center;
+  }
+  .axios__logo {
+    width: 2.2rem;
+  }
+  .index__more {
+    font-size: 1.2rem;
+    background-color:#d14c0515;
+    border: 2px solid #d14e05;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0.4rem 1rem;
+    margin-top: 1rem;
+    
+  }
+  .index__logo {
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .logo__curve {
+    height: 3rem;
+  }
+  .index__content__one {
+    margin-left: 0rem;
+    padding-left: 0rem;
+    padding-top: 2rem;
+    margin-right: 1rem;
+    padding-bottom: 2rem;
+    border-left: 0px solid white;
+    height: max-content;
+  }
+  .paragraph p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  .paragraph p:first-child {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0.3rem;
+    color: white;
+  }
+  .paragraph p:nth-child(3) {
+    font-size: 0.9rem;
+    margin-top: 0rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+  }
+  .index__content__two {
+    margin-right: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+  }
+  .carousel {
+    width: 15rem !important;
+  }
+  .carousel-item img {
+    width: 15rem !important;
+    height: 15rem !important;
+  }
+  .carousel-actions {
+    padding-top: 0.2rem !important;
+  }
+  .carousel-actions #carousel-slide-nav span {
+    margin-right: 26px !important;
+  }
+  .index__icons {
+    display: flex;
+    flex-direction: row;
+  }
+  .index__icons img {
+    width: 2rem;
+    margin-right: 1rem;
+  }
+  .index__footer {
+    padding: 0.5rem 1.5rem !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 8%;
+    height: 3rem;
+    box-sizing: border-box;
+  }
+  .index__explore {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0.4rem 1rem;
+    margin-top: 1rem;
+    margin-right: 30px !important;
+  }
+  .webcontainer {
+    width: 300px;
+    height: 450px;
+    background: url(../images/hacker_mobile.jpg);
+    background-size: cover;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 8;
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.596);
+  }
+  .wing-buttons {
+    font-size: 0.9rem;
+  }
+  .webd-btn {
+    padding: 0.25rem 0;
+    margin-top: 1rem;
+  }
+  .appd-btn {
+    padding: 0.25rem 0;
+  }
+  .ml-btn {
+    padding: 0.25rem 0;
+    transform: rotateZ(90deg) translate(-15%, -150%);
+  }
+  .cybersec-btn {
+    /* bottom: 3.5rem; */
+    padding: 0.25rem 0;
+    margin-left: 0;
+    margin-bottom: 14%;
+  }
+  .cc-btn {
+    /* bottom: 3.5rem; */
+    padding: 0.25rem 0;
+    margin-right: 0;
+    margin-bottom: 14%;
+  }
+  .design-btn {
+    /* bottom: 3.5rem; */
+    padding: 0.25rem 0;
+    margin-bottom: 14%;
+  }
+  .back-btn {
+    margin-top: 1rem;
+    padding: 0.25rem 0;
+    z-index: 7;
+  }
+  .back {
+    width: 260px;
+    height: 480px;
+    background-color: #12121342;
+    display: none;
+  }
+  .header-text {
+    background-color: rgba(54, 53, 53, 0.411);
+    padding-right: 1.6rem;
+    padding-left: 2rem;
+    padding-top: 75%;
+  }
+  .header-text h2 {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+  .header-text p {
+    line-height: 1.2;
+    color: #c5c5c5;
+  }
+  .header-text .btn {
+    margin-top: 0.7rem;
+    padding: 0.6rem 0.6rem;
+    font-size: 1rem;
+  }
+  .word {
+    bottom: 0;
+    color: #fff;
+    font-size: 3em !important;
+    height: 2.5em;
+    left: 0;
+  }
+  .backdrop {
+    background-image: url(../images/cyback_mobile.jpg);
+  }
+  .index__wrapper {
+    background-image: url(../images/keyboard_mobile.jpg);
+  }
+}

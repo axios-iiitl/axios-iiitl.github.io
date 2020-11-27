@@ -1,5 +1,5 @@
 ///
-/// Forty by HTML5 UP
+/// Solid State by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -7,171 +7,134 @@
 /* Banner */
 
 	#banner {
-		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../../images/banner.jpg")');
-		@include vendor('display', 'flex');
-		@include padding(4em, 0, (2em, 0, 0, 0));
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 0 !important;
-		cursor: default;
-		height: 60vh;
-		margin-bottom: -3.25em;
-		max-height: 32em;
-		min-height: 22em;
-		position: relative;
-		top: -3.25em;
+		@include padding(10em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
 
-		&:after {
-			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
-			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 0.85;
-			position: absolute;
-			top: 0;
-			width: 100%;
-			z-index: 1;
+		.inner {
+			margin: 0 auto;
+			width: _size(inner);
 		}
 
-		h1 {
-			font-size: 3.25em;
-		}
-
-		> .inner {
+		.logo {
 			@include vendor('transition', (
-				'opacity 1.5s ease',
-				'transform 0.5s ease-out',
-				'filter 0.5s ease',
-				'-webkit-filter 0.5s ease'
+				'opacity 2s ease',
+				'transform 1s ease',
 			));
-			padding: 0 !important;
-			position: relative;
-			z-index: 2;
+			@include vendor('transform', 'translateY(0)');
+			opacity: 1;
+			margin: 0 0 (_size(element-margin) * 0.65) 0;
 
-			.image {
-				display: none;
-			}
-
-			header {
-				width: auto;
-
-				> :first-child {
-					width: auto;
-
-					&:after {
-						max-width: 100%;
-					}
-				}
-			}
-
-			.content {
-				@include vendor('display', 'flex');
-				@include vendor('align-items', 'center');
-				margin: 0 0 _size(element-margin) 0;
-
-				> * {
-					margin-right: 1.5em;
-					margin-bottom: 0;
-				}
-
-				> :last-child {
-					margin-right: 0;
-				}
-
-				p {
-					font-size: 0.7em;
-					font-weight: _font(weight-bold);
-					letter-spacing: _font(letter-spacing-alt);
-					text-transform: uppercase;
-				}
+			.icon {
+				border-radius: 100%;
+				border: solid 2px _palette(border);
+				cursor: default;
+				display: inline-block;
+				font-size: 2em;
+				height: 2.25em;
+				line-height: 2.25em;
+				text-align: center;
+				width: 2.25em;
 			}
 		}
 
-		&.major {
-			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
-
-			&.alt {
-				opacity: 0.75;
-			}
+		h2 {
+			@include vendor('transition', (
+				'opacity 0.5s ease',
+				'transform 0.5s ease',
+				'filter 0.25s ease',
+			));
+			@include vendor('transform', 'translateX(0)');
+			@include vendor('transition-delay', '0.65s');
+			@include vendor('filter', 'blur(0)');
+			opacity: 1;
+			border-bottom: solid 2px _palette(border);
+			font-size: 2.25em;
+			margin-bottom: _size(element-margin) * 0.4;
+			padding-bottom: _size(element-margin) * 0.2;
 		}
 
-		&.style1 { &:after { background-color: _palette(accent1); } }
-		&.style2 { &:after { background-color: _palette(accent2); } }
-		&.style3 { &:after { background-color: _palette(accent3); } }
-		&.style4 { &:after { background-color: _palette(accent4); } }
-		&.style5 { &:after { background-color: _palette(accent5); } }
-		&.style6 { &:after { background-color: _palette(accent6); } }
-
-		body.is-preload & {
-			&:after {
-				opacity: 1.0;
-			}
-
-			> .inner {
-				@include vendor('filter', 'blur(0.125em)');
-				@include vendor('transform', 'translateX(-0.5em)');
-				opacity: 0;
-			}
+		p {
+			@include vendor('transition', (
+				'opacity 0.5s ease',
+				'transform 0.5s ease',
+				'filter 0.25s ease',
+			));
+			@include vendor('transform', 'translateX(0)');
+			@include vendor('transition-delay', '0.8s');
+			@include vendor('filter', 'blur(0)');
+			opacity: 1;
+			font-family: _font(family-heading);
+			font-size: 1em;
+			font-weight: _font(weight-heading);
+			letter-spacing: _font(kern-heading);
+			line-height: 2;
+			text-transform: uppercase;
 		}
 
 		@include breakpoint('<=large') {
-			background-attachment: scroll;
+			@include padding(7em, 0, (0, 0, _size(wrapper-edges, large) * 0.5, 0));
+
+			background-color:		_palette(bg);
+
+			background-image:		linear-gradient(to top, transparentize(_palette(bg), 0.2), transparentize(_palette(bg), 0.2)),
+									url('../../images/bg.jpg');
+
+			background-size:		auto,
+									cover;
+
+			background-position:	center,
+									center;
+
+		 	margin-bottom: (_size(wrapper-edges, large) * -1);
+		}
+
+		@include breakpoint('<=medium') {
+			@include padding(12em, 3em, (0, 0, _size(wrapper-edges, medium) * 0.5, 0));
+
+		 	margin-bottom: (_size(wrapper-edges, medium) * -1);
+
+			.inner {
+				width: 100%;
+			}
 		}
 
 		@include breakpoint('<=small') {
-			@include padding(3em, 0, (2em, 0, 0, 0));
-			height: auto;
-			margin-bottom: -2.75em;
-			max-height: none;
-			min-height: 0;
-			top: -2.75em;
+			@include padding(5em, 2em, (0, 0, _size(wrapper-edges, small) * 0.5, 0));
 
-			h1 {
-				font-size: 2em;
-			}
+		 	margin-bottom: (_size(wrapper-edges, small) * -1);
 
-			> .inner {
-				.content {
-					display: block;
+			.logo {
+				margin: 0 0 (_size(element-margin) * 0.5) 0;
 
-					> * {
-						margin-right: 0;
-						margin-bottom: _size(element-margin);
-					}
+				.icon {
+					font-size: 1.5em;
 				}
 			}
 
-			&.major {
-				height: auto;
-				min-height: 0;
-				max-height: none;
+			h2 {
+				font-size: 1.5em;
+			}
+
+			p {
+				font-size: 0.8em;
 			}
 		}
 
-		@include breakpoint('<=xsmall') {
-			@include padding(4em, 0, (2em, 0, 0, 0));
-
-			> .inner {
-				.content {
-					p {
-						br {
-							display: none;
-						}
-					}
-				}
+		body.is-preload & {
+			.logo {
+				@include vendor('transform', 'translateY(0.5em)');
+				opacity: 0;
 			}
 
-			&.major {
-				@include padding(6em, 0, (2em, 0, 0, 0));
+			h2 {
+				opacity: 0;
+				@include vendor('transform', 'translateX(0.25em)');
+				@include vendor('filter', 'blur(2px)');
+			}
+
+			p {
+				opacity: 0;
+				@include vendor('transform', 'translateX(0.5em)');
+				@include vendor('filter', 'blur(2px)');
 			}
 		}
 	}

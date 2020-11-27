@@ -1,5 +1,5 @@
 ///
-/// Forty by HTML5 UP
+/// Solid State by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -71,10 +71,11 @@
 	label {
 		color: _palette(fg-bold);
 		display: block;
+		font-family: _font(family-heading);
 		font-size: 0.8em;
-		font-weight: _font(weight-bold);
-		letter-spacing: _font(letter-spacing-alt);
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		font-weight: _font(weight-heading-bold);
+		letter-spacing: _font(kern-heading);
+		margin: 0 0 (_size(element-margin) * 0.35) 0;
 		text-transform: uppercase;
 	}
 
@@ -82,14 +83,13 @@
 	input[type="password"],
 	input[type="email"],
 	input[type="tel"],
-	input[type="search"],
-	input[type="url"],
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
 		background: _palette(border-bg);
+		border-radius: _size(border-radius);
 		border: none;
-		border-radius: 0;
+		border: solid 2px _palette(border);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -102,8 +102,7 @@
 		}
 
 		&:focus {
-			border-color: _palette(highlight);
-			box-shadow: 0 0 0 2px _palette(highlight);
+			border-color: desaturate(lighten(_palette(accent), 6), 3);
 		}
 	}
 
@@ -135,9 +134,6 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	input[type="tel"],
-	input[type="search"],
-	input[type="url"],
 	select {
 		height: _size(element-height);
 	}
@@ -157,34 +153,40 @@
 		z-index: -1;
 
 		& + label {
-			@include icon;
+			@include icon(false, solid);
 			color: _palette(fg);
 			cursor: pointer;
 			display: inline-block;
+			font-size: 1em;
+			font-family: _font(family);
+			text-transform: none;
+			letter-spacing: 0;
 			font-weight: _font(weight);
-			padding-left: (_size(element-height) * 0.6) + 1em;
+			padding-left: (_size(element-height) * 0.6) + 0.75em;
 			padding-right: 0.75em;
 			position: relative;
 
 			&:before {
 				background: _palette(border-bg);
+				border-radius: _size(border-radius);
+				border: solid 2px _palette(border);
 				content: '';
 				display: inline-block;
-				height: (_size(element-height) * 0.6);
+				font-size: 0.8em;
+				height: (_size(element-height) * 0.75);
 				left: 0;
-				letter-spacing: 0;
-				line-height: (_size(element-height) * 0.575);
+				line-height: (_size(element-height) * 0.75);
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: (_size(element-height) * 0.6);
+				width: (_size(element-height) * 0.75);
 			}
 		}
 
 		&:checked + label {
 			&:before {
 				background: _palette(fg-bold);
-				border-color: _palette(highlight);
+				border-color: _palette(fg-bold);
 				content: '\f00c';
 				color: _palette(bg);
 			}
@@ -192,7 +194,7 @@
 
 		&:focus + label {
 			&:before {
-				box-shadow: 0 0 0 2px _palette(highlight);
+				border-color: _palette(accent);
 			}
 		}
 	}
@@ -200,6 +202,7 @@
 	input[type="checkbox"] {
 		& + label {
 			&:before {
+				border-radius: _size(border-radius);
 			}
 		}
 	}

@@ -1,0 +1,93 @@
+@media screen and (min-width: 1650px) {
+  .landing-page img {
+    width: 4rem;
+  }
+  .text {
+    font-size: 150px;
+    margin-bottom: 1rem;
+  }
+  .center h3 {
+    font-size: 35px;
+  }
+  .center {
+    margin-top: 8rem;
+  }
+  .sub_title2 {
+    font-size: 2.5rem;
+  }
+  .sub_title1 {
+    font-size: 2.5rem;
+  }
+  hr {
+    margin-block-end: 0.25em;
+    margin-block-start: 0.25em;
+  }
+  .about_text p {
+    line-height: 1.4;
+    color: #fff7f7c0;
+    font-weight: 300;
+    font-size: 1.6rem;
+  }
+  .work_text h2 {
+    font-size: 30px;
+  }
+  .work_text {
+    margin: 100px 0;
+  }
+
+  .work_text .number {
+    font-size: 55px;
+  }
+  .title {
+    font-size: 45px;
+  }
+  .profile-container {
+    width: 390px;
+    height: 520px;
+    margin: 60px 30px;
+  }
+  .profile-card img {
+    width: 135px;
+    height: 135px;
+  }
+  .profile-card h2 {
+    line-height: 1;
+    font-size: 1.8rem;
+  }
+  .profile-card h4 {
+    line-height: 1.2;
+    font-size: 1.5rem;
+  }
+  
+  .profile-card p {
+    line-height: 1.2;
+    font-size: 1.25rem;
+    color: #dadada;
+    margin: 10px 5px;
+  }
+  .profile-card .icons {
+    display: flex;
+    color: rgb(224, 224, 224) !important;
+    width: 90%;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+    margin: 20px 0;
+  }
+  .contects a {
+    font-size: 45px;
+    margin: 20px;
+    
+  }
+  .copy {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .footer h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #f1f1f1c5;
+    margin: 20px;
+    font-weight: 300;
+  }
+  
+}
