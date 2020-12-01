@@ -7,11 +7,34 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 .logo{
-	margin-left: 3rem;
-	margin-top: 2rem;
+	margin-left: 1.5rem;
+	margin-top: 1rem;
 	z-index: 5;
 	position: absolute;
 }
+.logostyle{
+	width:40px;
+}
+@media screen and (max-width: 480px)
+{
+	.logostyle{
+		width:20px;
+	}
+	.logo{
+		margin-left: 1rem;
+		margin-top: .5rem;
+	}
+}
+@media screen and (max-width: 600px){
+	.logostyle{
+		width:25px;
+	}
+	.logo{
+		margin-left: 1.1rem;
+		margin-top: .7rem;
+	}
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -105,13 +128,10 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto,
- cover;
-		background-attachment: fixed,
- fixed;
-		background-position: center,
- center;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.75), rgba(46, 49, 65, 0.75)), url("../../images/banner2.jpg");
+		background-size: auto, cover;
+		background-attachment: fixed,fixed;
+		background-position: center,center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2708,7 +2728,9 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 736px) {
-
+			.image{
+				display: none;
+			}
 			ul.contact li {
 				margin: 1.5em 0 0 0;
 			}
@@ -3385,11 +3407,10 @@ input, select, textarea {
 	#banner {
 		padding: 10em 0 4.75em 0 ;
 		background-size: auto;
-		background-size: auto,
-		cover;
-					   background-position: center,
-		center;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/webd3.jpg");
+		background-size: auto, cover;
+		background-position: center, center;
+		/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.75), rgba(46, 49, 65, 0.75)) */
+		/* , url("../../images/banner2.jpg"); */
 	}
 
 		#banner .inner {
@@ -3466,22 +3487,20 @@ input, select, textarea {
 			opacity: 1;
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 1em;
-			font-weight: 200;
+			font-weight: 400;
 			letter-spacing: 0.1em;
-			line-height: 2;
-			text-transform: uppercase;
+			line-height: 1.9;
+			/* text-transform: uppercase; */
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/webd3.jpg");
-				background-size: auto,
- cover;
-				background-position: center,
- center;
+				/* background-color: #2e3141; */
+				/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.75), rgba(46, 49, 65, 0.75)), url("../../images/banner2.jpg"); */
+				background-size: auto, cover;
+				background-position: center, center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3491,12 +3510,10 @@ input, select, textarea {
 
 			#banner {
 				padding: 12em 3em 12.375em 3em ;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/webd3.jpg");
+				/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.75), rgba(46, 49, 65, 0.75)), url("../../images/banner2.jpg"); */
 				margin-bottom: -4.75em;
-				background-size: auto,
-				cover;
-							   background-position: center,
-				center;
+				background-size: auto, cover;
+				background-position: center, center;
 			}
 
 				#banner .inner {
@@ -3510,11 +3527,9 @@ input, select, textarea {
 			#banner {
 				padding: 5em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
-				background-size: auto,
-				cover;
-							   background-position: center,
-				center;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/webd3.jpg");
+				background-size: auto, cover;
+			    background-position: center, center;
+				/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.75), rgba(46, 49, 65, 0.75)), url("../../images/banner2.jpg"); */
 			}
 
 				#banner .logo {
@@ -3599,11 +3614,9 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto,
- cover;
-			background-position: center,
- 0% 30%;
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.75), rgba(46, 49, 65, 0.75)), url("../../images/banner2.jpg");
+			background-size: auto,cover;
+			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3652,7 +3665,8 @@ input, select, textarea {
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+			/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,0 0,100 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E"); */
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,0 0,100 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before {
@@ -3788,19 +3802,21 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			/* background-color: #4c5c96; */
+			background-color: #2e3141;
+			
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3841,7 +3857,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				/* text-align: right; */
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
@@ -3849,35 +3865,37 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				background-color: #3a3d4a;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
+					/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E"); */
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233a3d4a%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #3a3d4a, 0 1px 0 0 #3a3d4a;
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #3a3d4a, 0 1px 0 0#3a3d4a;
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3f4e85;
+				/* background-color: #3f4e85; */
+				background-color: #2e3141;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 				}
 
 			.wrapper.spotlight.style4 {
@@ -4091,12 +4109,10 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto,
- cover;
-			background-position: center,
- center;
+			/* background-color: #2e3141;
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.9), rgba(46, 49, 65, 0.9)), url("../../images/banner2.jpg"); */
+			background-size: auto, cover;
+			background-position: center, center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
