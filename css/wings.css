@@ -7,7 +7,9 @@ body::-webkit-scrollbar {
 #fill {
   background-color: white;
 }
-
+.pointer{
+  cursor: pointer;
+}
 body {
   margin: 0;
   padding: 0;
