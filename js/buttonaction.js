@@ -1,9 +1,11 @@
-const webdbutton = document.querySelector(".webd-btn");
-const appdbutton = document.querySelector(".appd-btn");
+// const webdbutton = document.querySelector(".webd-btn");
+const softwarebutton = document.querySelector(".software-btn");
+const initiativebutton = document.querySelector(".initiative-btn");
+// const appdbutton = document.querySelector(".appd-btn");
 const cyberbutton = document.querySelector(".cybersec-btn");
 const mlbutton = document.querySelector(".ml-btn");
 const ccbutton = document.querySelector(".cc-btn");
-const designbutton = document.querySelector(".design-btn");
+const uiuxdesignbutton = document.querySelector(".uiuxdesign-btn");
 const downcover = document.querySelector(".down-cover");
 const rightcover = document.querySelector(".right-cover");
 const wingName = document.querySelector("#wing-name");
@@ -13,26 +15,33 @@ const webContainer = document.querySelector(".webcontainer");
 const btn = document.querySelector(".btn");
 var urlofpage = "./wings/cyber.html";
 const details = {
-  De: {
+  UI: {
     text:
       "Design is an art. Design can be aesthetics. Design is so simple, that's why its so complicated.",
     img: "url(./images/design1",
     back: "url(./images/design1",
     url: "./wings/design.html",
   },
-  We: {
+  // We: {
+  //   text:
+  //     "Web development is not just about creating pretty layouts. It’s about understanding the marketing challenge behind your business.”",
+  //   img: "url(./images/software",
+  //   back: "url(./images/software",
+  //   url: "./wings/webd.html",
+  // },
+  So: {
     text:
-      "Web development is not just about creating pretty layouts. It’s about understanding the marketing challenge behind your business.”",
-    img: "url(./images/webd3",
-    back: "url(./images/webd3",
-    url: "./wings/webd.html",
+      "The greatest risk we face in software development is that of overestimating our own knowledge. The task of our team is to engineer the illusion of simplicity.”",
+    img: "url(./images/software",
+    back: "url(./images/software",
+    url: "./wings/software.html",
   },
-  Ap: {
+  In: {
     text:
-      "It’s hard enough to find an error in your code when you’re looking for it; its even harder when you’ve assumed that your code is ERROR-FREE.",
-    img: "url(./images/appd2",
-    back: "url(./images/appd2",
-    url: "./wings/appd.html",
+      "When we succeed, we succeed because of our individual initiative, but also because we do things together.",
+    img: "url(./images/innovation",
+    back: "url(./images/innovation",
+    url: "./wings/initiative.html",
   },
   Ma: {
     text:
@@ -55,9 +64,16 @@ const details = {
     back: "url(./images/cyback",
     url: "./wings/cyber.html",
   },
+  Info: {
+    text:
+      "Security used to be an inconvenience sometimes, but now it's a necessity all the time.",
+    img: "url(./images/hacker",
+    back: "url(./images/cyback",
+    url: "./wings/cyber.html",
+  },
 };
-designbutton.addEventListener("click", () => {
-  bottomcoveranimation(designbutton);
+uiuxdesignbutton.addEventListener("click", () => {
+  bottomcoveranimation(uiuxdesignbutton);
 });
 ccbutton.addEventListener("click", () => {
   bottomcoveranimation(ccbutton);
@@ -68,15 +84,22 @@ cyberbutton.addEventListener("click", () => {
 mlbutton.addEventListener("click", () => {
   rightcoveranimation(mlbutton);
 });
-webdbutton.addEventListener("click", () => {
-  topcoveranimation(webdbutton);
+// webdbutton.addEventListener("click", () => {
+//   topcoveranimation(softwarebutton);
+// });
+softwarebutton.addEventListener("click", () => {
+  topcoveranimation(softwarebutton);
 });
-appdbutton.addEventListener("click", () => {
-  leftcoveranimation(appdbutton);
+// appdbutton.addEventListener("click", () => {
+//   leftcoveranimation(appdbutton);
+// });
+initiativebutton.addEventListener("click", () => {
+  leftcoveranimation(initiativebutton);
 });
 
 function bottomcoveranimation(action) {
   const wingg = action.innerText.slice(0, 2);
+  const information = action.innerText.slice(0, 4);
   tl.fromTo(
     downcover,
     1,
@@ -91,17 +114,36 @@ function bottomcoveranimation(action) {
   );
   setTimeout(function () {
     wingName.innerText = action.innerText;
+    if(information == "Info")
+    wingQuote.innerText = details['Info'].text;
+    else
     wingQuote.innerText = details[wingg].text;
+    
     if (screen.width < 800) {
+      if(information == "Info") {
+        webContainer.style.background = `${details['Info'].img}_mobile.jpg)`;
+        background.style.backgroundImage = details['Info'].back + "_mobile.jpg)";
+      } else {
       webContainer.style.background = `${details[wingg].img}_mobile.jpg)`;
       background.style.backgroundImage = details[wingg].back + "_mobile.jpg)";
+      }
     } else {
-      background.style.backgroundImage = details[wingg].back + ".jpg)";
+      if(information == 'Info') {
+        background.style.backgroundImage = details['Info'].back + ".jpg)";
+      webContainer.style.background = details['Info'].img + ".jpg)";
+      } else {
+        background.style.backgroundImage = details[wingg].back + ".jpg)";
       webContainer.style.background = details[wingg].img + ".jpg)";
+      }
     }
     webContainer.style.backgroundSize = "cover";
-    background.style.backgroundImage = details[wingg].back + ".jpg)";
+    if(information == 'Info') {
+      background.style.backgroundImage = details['Info'].back + ".jpg)";
+    urlofpage = details['Info'].url;
+    } else {
+      background.style.backgroundImage = details[wingg].back + ".jpg)";
     urlofpage = details[wingg].url;
+    }
   }, 1000);
 }
 function rightcoveranimation(action) {
