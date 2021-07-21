@@ -52,7 +52,18 @@ a {
   width: 100vw;
   font-family: "Muli", sans-serif;
 }
-.webd-btn {
+/* .webd-btn {
+  position: absolute;
+  top: 0;
+  padding: 0.7rem 0;
+  z-index: 7;
+  font-weight: 550;
+  left: 50%;
+  cursor: pointer;
+  border-bottom: 3px solid #d14c059d;
+  transform: translateX(-50%);
+} */
+.software-btn {
   position: absolute;
   top: 0;
   padding: 0.7rem 0;
@@ -63,7 +74,20 @@ a {
   border-bottom: 3px solid #d14c059d;
   transform: translateX(-50%);
 }
-.appd-btn {
+/* .appd-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.7rem 0;
+  z-index: 7;
+  font-weight: 550;
+  left: 0;
+  cursor: pointer;
+  border-bottom: 3px solid #d14c059d;
+  transform-origin: 0 0;
+  transform: rotateZ(-90deg) translateX(-50%);
+} */
+.initiative-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -113,7 +137,7 @@ a {
   border-bottom: 3px solid #d14c059d;
   transform: translateY(-35%);
 }
-.design-btn {
+.uiuxdesign-btn {
   position: absolute;
   bottom: 0%;
   padding: 0.7rem 0;

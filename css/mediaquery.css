@@ -134,12 +134,14 @@
     font-size: 1.5rem;
   }
 
-  .webd-btn,
-  .appd-btn,
-  ml-btn,
+  /* .webd-btn, */
+  .software-btn,
+  /* .appd-btn, */
+  .ml-btn,
+  .initiative-btn,
   .cybersec-btn,
   .cc-btn,
-  .design-btn {
+  .uiuxdesign-btn {
     padding: 1.1rem 0;
   }
 
@@ -282,11 +284,18 @@
   .wing-buttons {
     font-size: 0.9rem;
   }
-  .webd-btn {
+  /* .webd-btn {
+    padding: 0.25rem 0;
+    margin-top: 1rem;
+  } */
+  .software-btn {
     padding: 0.25rem 0;
     margin-top: 1rem;
   }
-  .appd-btn {
+  /* .appd-btn {
+    padding: 0.25rem 0;
+  } */
+  .initiative-btn {
     padding: 0.25rem 0;
   }
   .ml-btn {
@@ -305,7 +314,7 @@
     margin-right: 0;
     margin-bottom: 14%;
   }
-  .design-btn {
+  .uiuxdesign-btn {
     /* bottom: 3.5rem; */
     padding: 0.25rem 0;
     margin-bottom: 14%;
