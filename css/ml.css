@@ -1,10 +1,10 @@
 .ml_mainpage {
-  width: 100%;
-  height: 100vh;
-  background:linear-gradient(#0b36537e, #0b365393),url(../images/machinebackground.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#0b36537e, #0b365393), url(../images/machinebackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .aryan::before {
@@ -16,11 +16,11 @@
     height: 100%;
     background: url('../images/MLimg/aryan.jpg') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .vinamr::before {
+.vinamr::before {
     content: '';
     position: absolute;
     top: 0;
@@ -29,11 +29,11 @@
     height: 100%;
     background: url('../images/MLimg/vinamr.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .charan::before {
+.charan::before {
     content: '';
     position: absolute;
     top: 0;
@@ -42,11 +42,11 @@
     height: 100%;
     background: url('../images/MLimg/charan.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .siddham::before {
+.siddham::before {
     content: '';
     position: absolute;
     top: 0;
@@ -55,11 +55,11 @@
     height: 100%;
     background: url('../images/MLimg/siddham.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .apporva::before {
+.apporva::before {
     content: '';
     position: absolute;
     top: 0;
@@ -68,10 +68,11 @@
     height: 100%;
     background: url('../images/MLimg/aporva.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
-  .Saksham::before {
+}
+
+.Saksham::before {
     content: '';
     position: absolute;
     top: 0;
@@ -80,6 +81,6 @@
     height: 100%;
     background: url('../images/MLimg/saksham.jpg') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}

@@ -1,10 +1,10 @@
 .cc_mainpage {
-  width: 100%;
-  height: 100vh;
-  background:linear-gradient(#0b365373, #0b36538a),url(../images/ccbackground.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#0b365373, #0b36538a), url(../images/ccbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .nishant::before {
@@ -16,9 +16,10 @@
     height: 100%;
     background: url('../images/cc/nishant.jpg') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
+
 .akshat::before {
     content: '';
     position: absolute;
@@ -28,9 +29,10 @@
     height: 100%;
     background: url('../images/cc/akshat.jpg') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
+
 .pravin::before {
     content: '';
     position: absolute;
@@ -40,9 +42,10 @@
     height: 100%;
     background: url('../images/cc/pravin.jpg') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
+
 .jai::before {
     content: '';
     position: absolute;
@@ -52,9 +55,10 @@
     height: 100%;
     background: url('../images/cc/jai.jpg') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
+
 .chahat::before {
     content: '';
     position: absolute;
@@ -64,11 +68,11 @@
     height: 100%;
     background: url('../images/cc/chahat.jpg') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .sambhav::before {
+.sambhav::before {
     content: '';
     position: absolute;
     top: 0;
@@ -77,11 +81,11 @@
     height: 100%;
     background: url('../images/cc/sambhav.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .anshul::before {
+.anshul::before {
     content: '';
     position: absolute;
     top: 0;
@@ -90,11 +94,11 @@
     height: 100%;
     background: url('../images/cc/anshul.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .ishan::before {
+.ishan::before {
     content: '';
     position: absolute;
     top: 0;
@@ -103,11 +107,11 @@
     height: 100%;
     background: url('../images/cc/ishan.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .karn::before {
+.karn::before {
     content: '';
     position: absolute;
     top: 0;
@@ -116,11 +120,11 @@
     height: 100%;
     background: url('../images/cc/karn.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .yogesh::before {
+.yogesh::before {
     content: '';
     position: absolute;
     top: 0;
@@ -129,11 +133,11 @@
     height: 100%;
     background: url('../images/cc/yogesh.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .dhananjay::before {
+.dhananjay::before {
     content: '';
     position: absolute;
     top: 0;
@@ -142,11 +146,11 @@
     height: 100%;
     background: url('../images/cc/dhananjay.jpg') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .nishan::before {
+.nishan::before {
     content: '';
     position: absolute;
     top: 0;
@@ -155,11 +159,11 @@
     height: 100%;
     background: url('../images/cc/Nishan.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
+}
 
-  .nipun::before {
+.nipun::before {
     content: '';
     position: absolute;
     top: 0;
@@ -168,7 +172,6 @@
     height: 100%;
     background: url('../images/cc/nipun.png') no-repeat center center/cover;
     z-index: -1;
-    opacity: 1;  
+    opacity: 1;
     transition: all .5s ease-in;
-  }
-  
+}

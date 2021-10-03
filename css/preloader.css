@@ -1,51 +1,50 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400);
-
-.index__preloader{
+.index__preloader {
     position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
-  background: radial-gradient(#222922, #000500);
-  font-family: 'Source Code Pro', monospace;
-  font-weight: 400;
-  overflow: hidden;
-  padding: 30px 0 0 30px;
-  text-align: center;
-  z-index: 12;
+    background: radial-gradient(#222922, #000500);
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    overflow: hidden;
+    padding: 30px 0 0 30px;
+    text-align: center;
+    z-index: 12;
 }
 
 .word {
-  bottom: 0;
-  color: #fff;
-  font-size: 4em;
-  height: 2.5em;
-  left: 0;
-  line-height: 2.5em;
-  margin: auto;
-  right: 0;
-  position: absolute;
-  text-shadow: 0 0 10px rgba(240, 160, 13, 0.5), 0 0 5px rgba(216, 143, 8, 0.5);
-  top: 0
+    bottom: 0;
+    color: #fff;
+    font-size: 4em;
+    height: 2.5em;
+    left: 0;
+    line-height: 2.5em;
+    margin: auto;
+    right: 0;
+    position: absolute;
+    text-shadow: 0 0 10px rgba(240, 160, 13, 0.5), 0 0 5px rgba(216, 143, 8, 0.5);
+    top: 0
 }
 
 .word span {
-  display: inline-block;
-  transform: translateX(100%) scale(0.9);
-  transition: transform 500ms;
+    display: inline-block;
+    transform: translateX(100%) scale(0.9);
+    transition: transform 500ms;
 }
 
 .word .done {
-  color: rgb(233, 138, 15);
-  transform: translateX(0) scale(1);
+    color: rgb(233, 138, 15);
+    transform: translateX(0) scale(1);
 }
 
 .overlay {
-  background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
-  background-size: 1000px 2px;
-  bottom: 0;
-  content: '';
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+    background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+    background-size: 1000px 2px;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
