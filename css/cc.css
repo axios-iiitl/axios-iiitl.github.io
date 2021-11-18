@@ -172,3 +172,69 @@
     transition: all .5s ease-in;
   }
   
+  .tejas_cp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/tejas_cp.png') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+  
+  .abhinav_cp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/abhinav_cp.png') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+
+  .aditya_cp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/aditya_cp.png') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+  
+
+  .akshay_cp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/akshay_cp.png') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+  
+  .preetish_cp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/preetish_cp.png') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+  
