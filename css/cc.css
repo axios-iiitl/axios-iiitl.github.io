@@ -238,3 +238,45 @@
     transition: all .5s ease-in;
   }
   
+
+  .satyabrat_cp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/satyabrat_cp.png') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+  
+
+  .prabhav_cp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/prabhav_cp.png') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+  
+
+  .ankit_cp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cc/ankit_cp.png') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;  
+    transition: all .5s ease-in;
+  }
+  
